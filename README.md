@@ -18,15 +18,19 @@
 
 * 하나의 함수만 실행 할때
 
-    * !git clone https://github.com/namu10664/Network-Science-Final-Exam.git
-    * %cd Network-Science-Final-Exam
-    from network_project_function import (함수이름)
+!git clone https://github.com/namu10664/Network-Science-Final-Exam.git
+
+%cd Network-Science-Final-Exam
+
+from network_project_function import (함수이름)
 
 * 모든 함수를 실행 할때
 
-    !git clone https://github.com/namu10664/Network-Science-Final-Exam.git
-    %cd Network-Science-Final-Exam
-    import network_project_function
+!git clone https://github.com/namu10664/Network-Science-Final-Exam.git
+
+%cd Network-Science-Final-Exam
+
+import network_project_function
 
 ---
 
@@ -38,8 +42,8 @@ ER 모델, 무작위 연결 패턴을 가진 네트워크로 모든 노드 쌍�
 
 실행에 필요한 함수: 없음
 
-    * N: 노드의 수
-    * p: 연결 확률
+    N: 노드의 수
+    p: 연결 확률
     
 반환값: G(네트워크)(type: networkx.classes.graph.Graph)
 
