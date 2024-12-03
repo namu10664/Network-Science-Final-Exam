@@ -2,24 +2,34 @@
 
 이 코드는 네트워크 이론의 voter model, ER model, configuration model, chung-lu model, BA model 과 degree distribution, mean geodesic distance,  giant_component 등에 대해서 다룬다. 
 
--필요한 라이브러리:
-networkx
-matplotlib.pyplot
-random
-itertools
-numpy
-math
+---
 
--함수 실행 방법(colab 기준):
+## **필요한 라이브러리**
+1. networkx
+2. matplotlib.pyplot
+3. random
+4. itertools
+5. numpy
+6. math
 
--하나의 함수만 실행 할때
+---
+
+## **함수 실행 방법(colab 기준)**
+
+* 하나의 함수만 실행 할때
+
 !git clone https://github.com/namu10664/Network-Science-Final-Exam.git
+
 %cd Network-Science-Final-Exam
+
 from network_project_function import (함수이름)
 
--모든 함수를 실행 할때
+* 모든 함수를 실행 할때
+
 !git clone https://github.com/namu10664/Network-Science-Final-Exam.git
+
 %cd Network-Science-Final-Exam
+
 import network_project_function
 
 (자세한 실행 방법은 .ipynb파일을 참조)
