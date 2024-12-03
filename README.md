@@ -36,14 +36,14 @@ import network_project_function
 
 ## **함수 설명**(자세한 실행 방법은 .ipynb파일을 참조)
 
-**gnp_random_graph(N, p)**
+**gnp_random_graph)**(N, p)
   
 * ER 모델, 무작위 연결 패턴을 가진 네트워크로 모든 노드 쌍이 동일한 확률로 연결된다.
 
 * 실행에 필요한 함수: 없음
 
-  N: 노드의 수
-  p: 연결 확률
+  * N: 노드의 수
+  * p: 연결 확률
     
 * 반환값: G(네트워크)(type: networkx.classes.graph.Graph)
 
