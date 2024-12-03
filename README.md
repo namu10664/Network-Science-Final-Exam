@@ -18,19 +18,15 @@
 
 * 하나의 함수만 실행 할때
 
-!git clone https://github.com/namu10664/Network-Science-Final-Exam.git
-
-%cd Network-Science-Final-Exam
-
-from network_project_function import (함수이름)
+    !git clone https://github.com/namu10664/Network-Science-Final-Exam.git
+    %cd Network-Science-Final-Exam
+    from network_project_function import (함수이름)
 
 * 모든 함수를 실행 할때
 
-!git clone https://github.com/namu10664/Network-Science-Final-Exam.git
-
-%cd Network-Science-Final-Exam
-
-import network_project_function
+    !git clone https://github.com/namu10664/Network-Science-Final-Exam.git
+    %cd Network-Science-Final-Exam
+    import network_project_function
 
 ---
 
