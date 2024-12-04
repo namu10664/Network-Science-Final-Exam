@@ -56,6 +56,7 @@ import network_project_function
     
 * 반환값: G(네트워크)(type: networkx.classes.graph.Graph)
 
+
 **voter_model_on_er_multiple_runs(n=100, p=0.1, initial_opinion_ratio=0.1, opinion_change_prob=0.1, max_steps=500, num_runs=1, draw_network_step=None)**
   
 * voter 모델, 네트워크의 각 노드가 무작위 단계로 선택되고 노드와 연결된 이웃 노드 중 하나를 일정 확률로 이웃의 의견을 자신의 의견으로 복사된다.
